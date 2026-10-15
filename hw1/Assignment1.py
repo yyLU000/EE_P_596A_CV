@@ -164,7 +164,7 @@ class ComputerVisionAssignment:
         Fill your code here
 
         """
-        binary = (self.binary_image > 0).astype(np.float64)
+        binary = self.binary_image.astype(np.float64)
         y, x = np.indices(binary.shape)
 
         m00 = np.sum(binary)

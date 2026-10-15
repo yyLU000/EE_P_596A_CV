@@ -82,29 +82,29 @@ Output shape: `(321, 433)`; dtype: `uint8`.
 
 ![Glasses outline](glasses_outline.png)
 
-Foreground pixels are treated as 1 and background pixels as 0.
+Moments use the stored pixel intensities: 255 for foreground and 0 for background.
 
 Returned values:
 
 ```text
-m00 = 11792
-m10 = 5617082
-m01 = 2254903
+m00 = 3006960
+m10 = 1432355910
+m01 = 575000265
 x_bar = 476.346845319
 y_bar = 191.223117368
-mu20 = 137886399.403
-mu02 = 59351807.9782
-mu11 = 57699869.45
+mu20 = 35161031847.7
+mu02 = 15134711034.4
+mu11 = 14713466709.7
 ```
 
 Additional moments requested by the handout (computed separately for this report; not returned by the current function):
 
 ```text
-m20 = 2813565690
-m02 = 490541389
-m11 = 1131815800
-mu10 = 1.16415321827e-10
-mu01 = 1.16415321827e-10
+m20 = 717459250950
+m02 = 125088054195
+m11 = 288613029000
+mu10 = 4.47034835815e-08
+mu01 = 1.49011611938e-08
 ```
 
 ## 11. Orientation, eccentricity, and fitted ellipse
