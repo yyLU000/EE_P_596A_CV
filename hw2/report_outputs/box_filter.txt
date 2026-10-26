@@ -1,0 +1,6 @@
+0 convolutions (length 3): [1, 1, 1]
+1 convolutions (length 5): [1, 2, 3, 2, 1]
+2 convolutions (length 7): [1, 3, 6, 7, 6, 3, 1]
+3 convolutions (length 9): [1, 4, 10, 16, 19, 16, 10, 4, 1]
+4 convolutions (length 11): [1, 5, 15, 30, 45, 51, 45, 30, 15, 5, 1]
+5 convolutions (length 13): [1, 6, 21, 50, 90, 126, 141, 126, 90, 50, 21, 6, 1]
